@@ -99,7 +99,7 @@ footer {
 }
 
 .pcb {
-	width: 500px;
+	width: 450px;
 	margin: auto;
 	top: 0; left: 0; bottom: 0; right:0;
 	display: block;
@@ -149,6 +149,10 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 }
 
+.section-four .center-container {
+	height: 95%;
+}
+
 .navbar-text a {
 	color: #b3b3b3 !important;
 }
@@ -180,4 +184,9 @@ h1 {
 #meetourteam {
 	color: #121518;
 	opacity: 0;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 16px;
 }
