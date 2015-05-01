@@ -18,11 +18,11 @@ $(function() {
 			.setPin("#meet-band") 
 			.addTo(controller);
 
-	new ScrollMagic.Scene({triggerElement: "#meet-band", duration: 1000, offset: 200})
-			.setTween("#pcb", {left: 660}) // trigger a TweenMax.to tween
+	new ScrollMagic.Scene({triggerElement: "#meet-band", duration: 1000, offset: 400})
+			.setTween("#pcb", {left: 670}) // trigger a TweenMax.to tween
 			.addTo(controller);
 
-	new ScrollMagic.Scene({triggerElement: "#meet-band", duration: 600, offset: 300})
+	new ScrollMagic.Scene({triggerElement: "#meet-band", duration: 1000, offset: 450})
 			.setTween("#pcb", {scale: 3.5}) // trigger a TweenMax.to tween
 			.addTo(controller);
 
