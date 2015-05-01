@@ -4,9 +4,9 @@ $(function() {
 
 	// build scene
 	var scene = new ScrollMagic.Scene({
-			triggerElement: "#this-nimble", 
-			offset: 480})
-		.setTween("#icons-layer-1", {opacity: 1}) // trigger a TweenMax.to tween
+			triggerElement: "#this-nimble"})
+		.setTween("#icons-layer-1", {opacity: 0.2}) // trigger a TweenMax.to tween
+		.setTween("#icons-layer-2", {opacity: 1}) // trigger a TweenMax.to tween
 		.addTo(controller);
 			
 	/* Band animations */
