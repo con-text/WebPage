@@ -234,6 +234,11 @@ h1 {
 	opacity: 0.0;
 }
 
+/* Meet the team */
+.section-four {
+	padding-top: 5%;
+}
+
 #meetourteam {
 	color: #121518;
 	opacity: 0;
@@ -246,4 +251,22 @@ h2 {
 
 .small-image {
 	width: 120px;
+}
+
+.img-circle {
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	width: 150px;
+	height: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.full-name {
+	text-align: center;
+}
+.position {
+	text-align: center;
 }
