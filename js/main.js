@@ -3,9 +3,14 @@ $(function() {
 	var controller = new ScrollMagic.Controller({triggerHook: 'onLeave'});
 
 	// build scene
-
+	var scene = new ScrollMagic.Scene({
+			triggerElement: "#this-nimble"})
+		.setTween("#icons-layer-1", {opacity: 0.2}) // trigger a TweenMax.to tween
+		.setTween("#icons-layer-2", {opacity: 1}) // trigger a TweenMax.to tween
+		.addTo(controller);
+			
 	/* Band animations */
-	var scene = new ScrollMagic.Scene({triggerElement: "#meet-band", duration: 600})
+	scene = new ScrollMagic.Scene({triggerElement: "#meet-band", duration: 600})
 			.setTween("#meetyourband", {opacity: 1.0}) // trigger a TweenMax.to tween
 			.addTo(controller);
 
