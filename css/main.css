@@ -80,7 +80,7 @@ body {
 .section-two {
 	background: #3A244C;
 	width: 100%;
-	height: 200%;
+	height: 300%;
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -91,7 +91,7 @@ body {
 	width: 100%;
 	height: 200%;
 	position: absolute;
-	top: 300%;
+	top: 400%;
 	left: 0;
 }
 
@@ -100,7 +100,7 @@ body {
 	width: 100%;
 	min-height: 100%;
 	position: absolute;
-	top: 500%;
+	top: 600%;
 	left: 0;
 
 }
@@ -110,7 +110,7 @@ footer {
 	width: 100%;
 	min-height: 12%;
 	position: absolute;
-	top: 600%;
+	top: 700%;
 	left: 0;
 }
 
@@ -121,10 +121,16 @@ footer {
 }
 
 .pcb {
-	width: 450px;
-	margin: auto;
-	top: 0; left: 0; bottom: 0; right:0;
-	display: block;
+	width: 98px;
+	position: absolute;
+	top: 287px; left: 100px; bottom: 0; right:0;
+	z-index: 5;
+}
+
+.watch {
+	width: 100px;
+	position: absolute;
+	top: 100px; left: 100px; bottom: 0; right:0;
 }
 
 h1 {
@@ -211,4 +217,8 @@ h1 {
 h2 {
 	font-weight: 400;
 	font-size: 16px;
+}
+
+.small-image {
+	width: 120px;
 }
